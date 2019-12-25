@@ -11,4 +11,4 @@ Function1.o: function1.cpp
 Function2.0: function2.cpp
 	g++ -c function2.cpp
 clean:
-	rm -rf *o hello
+	rm -rf *o hello.exe
