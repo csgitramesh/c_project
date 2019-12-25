@@ -1,4 +1,4 @@
-all: hello.exe
+all: hello
 
 sunitha.exe: main.o function1.o function2.o
 	g++ main.o function1.o function2.o -o software.exe
