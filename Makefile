@@ -1,7 +1,7 @@
 all: hello
 
 hello: main.o function1.o function2.o
-	g++ main.o function1.o function2.o -o hello
+	g++ main.o function1.o function2.o -o software.exe
 main.o: main.cpp
 	g++ -c main.cpp
 
